@@ -1,3 +1,7 @@
-<h1>Welcome to my app!</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
-<p>Sign up <%= link_to "here","#"%>.</p>
+<div class="jumbotron">
+	<h1>Welcome to my app!</h1>
+<!--ORIGINALL JUST TEXT "Sign up" andA LINK FOR "here"  
+	<p>Sign up <%= link_to "here","#"%>.</p>
+CHANGE TO A BUTTON:  NEW RUBY CODE BEGINS -->
+	<p>Click here to <%= link_to "Sign up", "#", class: "btn btn-primary btn-lg"%> </p> 
+</div>
